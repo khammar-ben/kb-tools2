@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(to right, #f4f4f9, #d9e4f5); /* Light grey to soft blue gradient */
+  font-family: 'Arial', sans-serif; /* Clean, readable font */
+
+}
+
+
+.links {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;  
+  }
+  
+  .links .link a {
+    display: inline-block;
+    width: 300px;
+    text-decoration: none;
+    border: 3px solid black;
+    font-size: 17px;
+    border-style: outset;
+    margin: 0 25px;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+
+  .links .link a:hover {
+    background: linear-gradient(to right, #6a11cb, #6a11cb); /* Gradient background */
+    transition: background ease;
+    box-shadow: 5px 6px 6px 0px #7e7e7e;
+  
+  }
+  

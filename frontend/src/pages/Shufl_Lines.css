@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav.navbar {
+    position: fixed;
+    width: 100%;
+  }
+  
+  .navbar-nav {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .navbar-nav a {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  div.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    gap: 20px;
+  }
+  
+  div.body h1 {
+    position: absolute;
+    top: 15%;
+  }
+  
+  div.body div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    gap: 5px;
+  }
+  

@@ -1,0 +1,27 @@
+
+  
+  div.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    gap: 20px;
+  }
+  
+  div.body h1 {
+    position: absolute;
+    top: 15%;
+  }
+  
+  div.body div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    gap: 5px;
+  }
+  

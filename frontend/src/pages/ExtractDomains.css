@@ -1,0 +1,24 @@
+
+
+div.body *{
+    color: black;
+}
+
+div.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+
+div.zone{
+    display: flex;
+    flex-direction: ro;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
