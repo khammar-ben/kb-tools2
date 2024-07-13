@@ -28,17 +28,20 @@ def check_records():
     
     return jsonify(results)
 
+
 frontend_folder = os.path.join(os.getcwd(), "..", "frontend") 
 build_folder = os.path.join(frontend_folder,"build")
 
 # Server static files from the "dist" folder under the "frontend" directory
-
-@app.route("/",defaults={"filenale":""})
+@app.route("/",defaults={"filename":""})
 @app.route("/<path:filename>")
 def index(filename):
     if not filename:
         filename = "index.html"
-    return send_from_directory(build_folder,filenamed)
+    return send_from_directory(build_folder,filename)
+
+
+
 
 
 if __name__ == '__main__':
