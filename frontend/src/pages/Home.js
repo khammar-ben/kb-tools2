@@ -6,6 +6,7 @@ import './home.css'; // Assuming you create a separate CSS file for styles
 const Home = () => {
   return (
     <>
+     
     <Header />
     <div className="links">
 

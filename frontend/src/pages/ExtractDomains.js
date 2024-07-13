@@ -40,7 +40,7 @@ function ExtractDomains() {
         <><Header /> 
         <div className="body">
             <h1>Domain Extractor</h1>
-            <div  >
+            <div >
             <label htmlFor="inputText">Enter text:</label><br />
             <textarea
                 value={inputText}
